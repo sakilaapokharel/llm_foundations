@@ -1,0 +1,19 @@
+Start
+ollama serve > /dev/null 2>&1 &
+
+Stop
+pkill -f "ollama serve"
+
+-----------------------------------------------------
+p1_chat
+step1_single_call
+uv run python p1_chat/step1_single_call.py
+
+step2_stateless
+uv run python p1_chat/step2_stateless.py
+
+step3_chatbot
+uv run python p1_chat/step3_chatbot.py
+
+-----------------------------------------------------
+p2_prompt_eval
