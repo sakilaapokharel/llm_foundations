@@ -5,6 +5,7 @@ Stop
 pkill -f "ollama serve"
 
 -----------------------------------------------------
+
 p1_chat
 step1_single_call
 uv run python p1_chat/step1_single_call.py
@@ -16,4 +17,14 @@ step3_chatbot
 uv run python p1_chat/step3_chatbot.py
 
 -----------------------------------------------------
+
 p2_prompt_eval
+
+step4_evaluate
+uv run python p2_prompt_eval/step4_evaluate.py
+
+step5_all_sets
+uv run python p2_prompt_eval/step5_all_sets.py
+
+-----------------------------------------------------
+
